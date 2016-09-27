@@ -10,3 +10,8 @@ Partially inspired by Drew Roper's [annual music collection](http://2015.drewrop
 - [ ] RESTful API with persistent data in Postgres.
 - [ ] Client side admin with authentication.
 - [ ] ???
+
+## Resources
+- Use [HTML5 semantic elements](http://www.w3schools.com/html/html5_semantic_elements.asp) when appropriate.
+- Follow [RSCSS](http://rscss.io/index.html).
+- Follow the [AirBnB JS style guide](https://github.com/airbnb/javascript).
