@@ -1,0 +1,61 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+* {
+  font-family: 'Crimson Text', serif;
+  font-size: 20px;
+}
+
+body {
+  margin: 0 auto;
+  width: 800px;
+}
+
+
+
+.nav-bar {
+  position: relative;
+  height: 50px;
+  overflow: hidden;
+  border-bottom: 2px solid black;
+}
+
+.nav-links {
+  width: 100%;
+  top: 25px;
+  position: absolute;
+}
+
+
+header a {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: line-through;
+}
+
+
+
+.book-list {
+  margin-top: 15px;
+}
+
+.book-item .image {
+  width: 150px;
+}
+
+.meta {
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+// font-family: 'Julius Sans One', sans-serif;
+// font-family: 'Crimson Text', serif;
