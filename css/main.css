@@ -376,7 +376,10 @@ html {
 
 body {
   margin: 0 auto;
-  width: 800px; }
+  width: 800px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; }
 
 p {
   margin: 0; }
@@ -437,6 +440,27 @@ p:not(:first-of-type) {
   .book-item > .meta .name, .book-item .author {
     font-family: 'Julius Sans One', sans-serif;
     font-size: 25px; }
+
+.footer-bar {
+  padding: 15px;
+  text-align: center; }
+  .footer-bar > .description > a {
+    color: #001F3F;
+    text-decoration: none; }
+    .footer-bar > .description > a:hover {
+      color: #80bfff; }
+
+.about-me {
+  margin-top: 25px;
+  flex: 1; }
+  .about-me > .header {
+    margin: 5px 0;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px; }
+  .about-me > .image {
+    width: 100%;
+    margin-bottom: 10px; }
 
 .pull-left {
   float: left; }

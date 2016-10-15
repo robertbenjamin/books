@@ -79,3 +79,40 @@
     font-size: 25px;
   }
 }
+
+// footer
+.footer-bar {
+  padding: 15px;
+  text-align: center;
+
+  > .description > a {
+    color: #001F3F;
+    text-decoration: none;
+
+    &:hover {
+      color: #80bfff;
+    }
+  }
+}
+
+// about page
+.about-me {
+  margin-top: 25px;
+  flex: 1;
+
+  > .header {
+    margin: 5px 0;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  > .image {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  > .details {
+
+  }
+}
