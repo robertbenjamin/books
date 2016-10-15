@@ -1,9 +1,5 @@
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
 
 * {
   font-family: 'Crimson Text', serif;
@@ -18,10 +14,5 @@ body {
   flex-direction: column;
 }
 
-p {
-  margin: 0;
-}
-
-p:not(:first-of-type) {
-  margin-top: 5px;
-}
+p { margin: 0; }
+p:not(:first-of-type) { margin-top: 5px; }

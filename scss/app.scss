@@ -18,16 +18,12 @@
     color: black;
     text-decoration: none;
 
-    &:hover {
-      text-decoration: line-through;
-    }
+    &:hover { text-decoration: line-through; }
   }
 }
 
 // main section
-.book-list {
-  margin-top: 15px;
-}
+.book-list { margin-top: 15px; }
 
 .book-item {
   display: flex;
@@ -39,9 +35,7 @@
     color: #80bfff;
   }
 
-  &:nth-child(even) .image {
-    border: 3px solid #fff;
-  }
+  &:nth-child(even) .image { border: 3px solid #fff; }
 
   &:nth-child(4n) {
     background-color: #ffdc00;
@@ -64,18 +58,14 @@
     height: 100%;
   }
 
-  > .meta {
-    margin: 0 30px 0 15px;
-  }
+  > .meta { margin: 0 30px 0 15px; }
 
   > .meta .name, .author {
     font-family: 'Julius Sans One', sans-serif;
     font-size: 25px;
   }
 
-  > .description {
-    padding-right: 15px;
-  }
+  > .description { padding-right: 15px; }
 }
 
 // footer
@@ -87,9 +77,7 @@
     color: #001f3f;
     text-decoration: none;
 
-    &:hover {
-      color: #80bfff;
-    }
+    &:hover { color: #80bfff; }
   }
 }
 
