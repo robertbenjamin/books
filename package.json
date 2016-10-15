@@ -1,0 +1,24 @@
+{
+  "name": "books",
+  "version": "1.0.0",
+  "description": "Remembering the books I've read over the years.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "url": "git+https://github.com/robertbenjamin/books.git",
+    "type": "git"
+  },
+  "author": "Robert Benjamin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertbenjamin/books/issues"
+  },
+  "homepage": "https://github.com/robertbenjamin/books#readme",
+  "devDependencies": {
+    "postcss-loader": "^0.13.0",
+    "precss": "^1.4.0",
+    "webpack": "^1.13.2"
+  }
+}
