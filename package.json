@@ -4,7 +4,9 @@
   "description": "Remembering the books I've read over the years.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass ./scss/main.scss ./css/main.css",
+    "watch": "node-sass -w ./scss/main.scss ./css/main.css"
   },
   "repository": {
     "url": "git+https://github.com/robertbenjamin/books.git",
@@ -17,8 +19,7 @@
   },
   "homepage": "https://github.com/robertbenjamin/books#readme",
   "devDependencies": {
-    "postcss-loader": "^0.13.0",
-    "precss": "^1.4.0",
-    "webpack": "^1.13.2"
-  }
+    "node-sass": "^3.10.1"
+  },
+  "dependencies": {}
 }
