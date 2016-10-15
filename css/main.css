@@ -414,15 +414,15 @@ p:not(:first-of-type) {
   color: #ddd; */
   /* background-color: #FF4136;
   color: hsla(3, 100%, 25%, 1.0); */ }
-  .book-item:nth-child(2) {
+  .book-item:nth-child(2n) {
     background-color: #001F3F;
     color: #80bfff; }
   .book-item:nth-child(even) .image {
     border: 3px solid white; }
-  .book-item:nth-child(4) {
+  .book-item:nth-child(4n) {
     background-color: #FFDC00;
     color: #665800; }
-  .book-item:nth-child(6) {
+  .book-item:nth-child(6n) {
     background-color: #FF4136;
     color: #800600; }
   .book-item > * {

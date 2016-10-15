@@ -34,7 +34,7 @@
   margin-bottom: 15px;
   padding: 15px;
 
-  &:nth-child(2) {
+  &:nth-child(2n) {
     background-color: #001F3F;
     color: hsla(210, 100%, 75%, 1.0);
   }
@@ -43,12 +43,12 @@
     border: 3px solid white;
   }
 
-  &:nth-child(4) {
+  &:nth-child(4n) {
     background-color: #FFDC00;
     color: hsla(52, 100%, 20%, 1.0);
   }
 
-  &:nth-child(6) {
+  &:nth-child(6n) {
     background-color: #FF4136;
     color: hsla(3, 100%, 25%, 1.0);
   }

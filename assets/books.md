@@ -40,6 +40,7 @@ Speaker for the Dead — Orson Scott Card (Arguably a better book than the alrea
 Ender's Game - Orson Scott Card (I've read this book many, many times, but am now going through the whole series)
 Principia Discordia — Malaclypse the Younger (Very strange and humorous read)
 Do Androids Dream of Electric Sheep? — Philip K. Dick
+
 Essentialism — Greg McKeown
 Ready Player One — Ernest Cline
 The Brief Wondrous Life of Oscar Wao — Junot Díaz
