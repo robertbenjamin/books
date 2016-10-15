@@ -35,29 +35,23 @@
   padding: 15px;
 
   &:nth-child(2n) {
-    background-color: #001F3F;
-    color: hsla(210, 100%, 75%, 1.0);
+    background-color: #001f3f;
+    color: #80bfff;
   }
 
   &:nth-child(even) .image {
-    border: 3px solid white;
+    border: 3px solid #fff;
   }
 
   &:nth-child(4n) {
-    background-color: #FFDC00;
-    color: hsla(52, 100%, 20%, 1.0);
+    background-color: #ffdc00;
+    color: #665800;
   }
 
   &:nth-child(6n) {
-    background-color: #FF4136;
-    color: hsla(3, 100%, 25%, 1.0);
+    background-color: #ff4136;
+    color: #800600;
   }
-
-  // ??? more ???
-  /* background-color: #111;
-  color: #ddd; */
-  /* background-color: #FF4136;
-  color: hsla(3, 100%, 25%, 1.0); */
 
   > * {
     display: flex;
@@ -90,7 +84,7 @@
   text-align: center;
 
   > .description > a {
-    color: #001F3F;
+    color: #001f3f;
     text-decoration: none;
 
     &:hover {
@@ -114,9 +108,5 @@
   > .image {
     width: 100%;
     margin-bottom: 10px;
-  }
-
-  > .details {
-
   }
 }
