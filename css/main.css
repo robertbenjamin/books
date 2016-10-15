@@ -440,6 +440,8 @@ p:not(:first-of-type) {
   .book-item > .meta .name, .book-item .author {
     font-family: 'Julius Sans One', sans-serif;
     font-size: 25px; }
+  .book-item > .description {
+    padding-right: 15px; }
 
 .footer-bar {
   padding: 15px;

@@ -4,7 +4,7 @@ A evolving project with the main goal of chronologically documenting the books I
 Partially inspired by Drew Roper's [annual music collection](http://2015.drewroper.com).
 
 ## Roadmap
-- [ ] Static HTML site with a solid design.
+- [x] Static HTML site with a solid design.
 - [ ] Dynamically generated site from a JSON file.
 - [ ] Basic API serving static data (Rails or Express).
 - [ ] RESTful API with persistent data in Postgres.
