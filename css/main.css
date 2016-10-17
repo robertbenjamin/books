@@ -460,8 +460,28 @@ p:not(:first-of-type) {
     width: 100%;
     margin-bottom: 10px; }
 
-.pull-left {
+._pull-left {
   float: left; }
 
 ._pull-right {
   float: right; }
+
+@media (max-width: 820px) {
+  body {
+    width: 100%; }
+  .nav-links {
+    padding: 0 10px; }
+  .book-list {
+    margin-top: 0; } }
+
+@media (max-width: 700px) {
+  .book-item {
+    display: block; }
+    .book-item > .image, .book-item .meta {
+      display: inline-block; }
+    .book-item > .image {
+      width: 120px; }
+    .book-item > .meta {
+      vertical-align: top;
+      max-width: 50%;
+      margin-right: 15px; } }
