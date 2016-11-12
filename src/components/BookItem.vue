@@ -16,7 +16,7 @@ export default {
   props: ['book'],
   computed: {
     imgSrc() {
-      return `./static/img/${this.book.image}`;
+      return `/static/img/${this.book.image}`;
     }
   }
 };
