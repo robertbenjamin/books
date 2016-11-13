@@ -1,7 +1,7 @@
 <template>
   <footer class="footer-bar">
     <p class="description">
-      <a href="http://robertbenjamin.me">•Made with ♥ in Seattle•</a>
+      <a href="http://robertbenjamin.co">•Made with ♥ in Seattle•</a>
     </p>
   </footer>
 </template>
