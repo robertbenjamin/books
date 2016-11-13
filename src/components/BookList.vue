@@ -26,7 +26,7 @@ const books = [
   {
     title: "The Hitchhiker's Guide to the Galaxy",
     author: 'Douglas Adams',
-    description: `<p>So this is it," said Arthur, "We are going to die."</p>
+    description: `<p>"So this is it," said Arthur, "We are going to die."</p>
                   <p>"Yes," said Ford, "except... no! Wait a minute!" He suddenly lunged across the chamber at something behind Arthur"s line of vision. "What's this switch?" he cried.</p>
                   <p>"What? Where?" cried Arthur, twisting round.</p>
                   <p>"No, I was only fooling," said Ford, "we are going to die after all.</p>`,
