@@ -27,7 +27,7 @@ const books = [
     title: "The Hitchhiker's Guide to the Galaxy",
     author: 'Douglas Adams',
     description: `<p>"So this is it," said Arthur, "We are going to die."</p>
-                  <p>"Yes," said Ford, "except... no! Wait a minute!" He suddenly lunged across the chamber at something behind Arthur"s line of vision. "What's this switch?" he cried.</p>
+                  <p>"Yes," said Ford, "except... no! Wait a minute!" He suddenly lunged across the chamber at something behind Arthur's line of vision. "What's this switch?" he cried.</p>
                   <p>"What? Where?" cried Arthur, twisting round.</p>
                   <p>"No, I was only fooling," said Ford, "we are going to die after all.</p>`,
     image: 'the-hitchhikers-guide-to-the-galaxy-douglas-adams.jpg'
@@ -36,7 +36,7 @@ const books = [
     title: "Cat's Cradle",
     author: 'Kurt Vonnegut',
     description: `<p>"Tiger got to hunt, bird got to fly;</p>
-                  <p>Man got to sit and wonder "why, why, why?"</p>
+                  <p>Man got to sit and wonder 'why, why, why?'</p>
                   <p>Tiger got to sleep, bird got to land;</p>
                   <p>Man got to tell himself he understand."</p>`,
     image: 'cats-cradle-kurt-vonnegut.jpg'
@@ -50,7 +50,7 @@ const books = [
   {
     title: 'The Martian',
     author: 'The Martian',
-    description: 'If a hiker gets lost in the mountains, people will coordinate a search. If a train crashes, people will line up to give blood. If an earthquake levels a city, people all over the world will send emergency supplies. This is so fundamentally human that it"s found in every culture without exception. Yes, there are assholes who just don"t care, but they"re massively outnumbered by the people who do.',
+    description: `If a hiker gets lost in the mountains, people will coordinate a search. If a train crashes, people will line up to give blood. If an earthquake levels a city, people all over the world will send emergency supplies. This is so fundamentally human that it's found in every culture without exception. Yes, there are assholes who just don't care, but they're massively outnumbered by the people who do.`,
     image: 'the-martian-andy-weir.jpg'
   },
   {
@@ -62,7 +62,7 @@ const books = [
   {
     title: 'Kitchen Confidential',
     author: 'Anthony Bourdain',
-    description: 'Do we really want to travel in hermetically sealed popemobiles through the rural provinces of France, Mexico and the Far East, eating only in Hard Rock Cafes and McDonalds? Or do we want to eat without fear, tearing into the local stew, the humble taqueria"s mystery meat, the sincerely offered gift of a lightly grilled fish head? I know what I want. I want it all. I want to try everything once.',
+    description: `Do we really want to travel in hermetically sealed popemobiles through the rural provinces of France, Mexico and the Far East, eating only in Hard Rock Cafes and McDonalds? Or do we want to eat without fear, tearing into the local stew, the humble taqueria's mystery meat, the sincerely offered gift of a lightly grilled fish head? I know what I want. I want it all. I want to try everything once.`,
     image: 'kitchen-confidential-anthony-bourdain.jpg'
   },
   {
