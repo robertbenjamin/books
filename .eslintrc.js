@@ -19,6 +19,7 @@ module.exports = {
   },
   // add your custom rules here
   'rules': {
+    'quotes': ['error', 'single', { 'avoidEscape': true }],
     'comma-dangle': ['error', 'never'],
     // don't require .vue extension when importing
     'import/extensions': ['error', 'always', {

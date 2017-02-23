@@ -14,7 +14,7 @@ const books = [
   {
     title: 'The Goldfinch',
     author: 'Donna Tartt',
-    description: "What if one happens to be possessed of a heart that can't be trusted--? What if the heart, for its own unfathomable reasons, leads one willfully and in a cloud of unspeakable radiance away from health, domesticity, civic responsibility and strong social connections and all the blandly-held common virtues and instead straight toward a beautiful flare of ruin, self-immolation, disaster?",
+    description: 'What if one happens to be possessed of a heart that can\'t be trusted--? What if the heart, for its own unfathomable reasons, leads one willfully and in a cloud of unspeakable radiance away from health, domesticity, civic responsibility and strong social connections and all the blandly-held common virtues and instead straight toward a beautiful flare of ruin, self-immolation, disaster?',
     image: 'the-goldfinch-donna-tartt.jpg'
   },
   {
@@ -50,7 +50,7 @@ const books = [
   {
     title: 'The Martian',
     author: 'The Martian',
-    description: `If a hiker gets lost in the mountains, people will coordinate a search. If a train crashes, people will line up to give blood. If an earthquake levels a city, people all over the world will send emergency supplies. This is so fundamentally human that it's found in every culture without exception. Yes, there are assholes who just don't care, but they're massively outnumbered by the people who do.`,
+    description: 'If a hiker gets lost in the mountains, people will coordinate a search. If a train crashes, people will line up to give blood. If an earthquake levels a city, people all over the world will send emergency supplies. This is so fundamentally human that it\'s found in every culture without exception. Yes, there are assholes who just don\'t care, but they\'re massively outnumbered by the people who do.',
     image: 'the-martian-andy-weir.jpg'
   },
   {
@@ -62,7 +62,7 @@ const books = [
   {
     title: 'Kitchen Confidential',
     author: 'Anthony Bourdain',
-    description: `Do we really want to travel in hermetically sealed popemobiles through the rural provinces of France, Mexico and the Far East, eating only in Hard Rock Cafes and McDonalds? Or do we want to eat without fear, tearing into the local stew, the humble taqueria's mystery meat, the sincerely offered gift of a lightly grilled fish head? I know what I want. I want it all. I want to try everything once.`,
+    description: 'Do we really want to travel in hermetically sealed popemobiles through the rural provinces of France, Mexico and the Far East, eating only in Hard Rock Cafes and McDonalds? Or do we want to eat without fear, tearing into the local stew, the humble taqueria\'s mystery meat, the sincerely offered gift of a lightly grilled fish head? I know what I want. I want it all. I want to try everything once.',
     image: 'kitchen-confidential-anthony-bourdain.jpg'
   },
   {
