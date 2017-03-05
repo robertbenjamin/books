@@ -7,11 +7,6 @@
   </section>
 </template>
 
-<script>
-export default {
-};
-</script>
-
 <style lang='scss'>
 .about-me {
   margin-top: 25px;
