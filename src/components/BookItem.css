@@ -1,0 +1,31 @@
+.book-item {
+  display: flex;
+  margin-bottom: 15px;
+  padding: 15px; }
+  .book-item:nth-child(2n) {
+    background-color: #001f3f;
+    color: #80bfff; }
+  .book-item:nth-child(even) .image-container > .image {
+    border: 2px solid #fff; }
+  .book-item:nth-child(4n) {
+    background-color: #ffdc00;
+    color: #665800; }
+  .book-item:nth-child(6n) {
+    background-color: #ff4136;
+    color: #800600; }
+  .book-item > * {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .book-item > .image-container {
+    min-width: 150px;
+    min-height: 100%; }
+    .book-item > .image-container img {
+      width: 150px; }
+  .book-item > .meta {
+    margin: 0 30px 0 20px; }
+  .book-item > .meta .name, .book-item .author {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 25px; }
+  .book-item > .description {
+    padding-right: 10px; }

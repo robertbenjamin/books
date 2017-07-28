@@ -1,17 +1,27 @@
-<template>
-  <section class='book-list'>
-    <book-item
-      v-for='book in books'
-      :title='book.title'
-      :author='book.author'
-      :description='book.description'
-      :image='book.image'>
-    </book-item>
-  </section>
-</template>
+import React from 'react';
+import './BookList.css';
 
-<script>
-import BookItem from './BookItem';
+import BookItem from 'components/BookItem';
+
+function BookList() {
+  const bookItems = books.map((book, index) => {
+    return (
+      <BookItem
+        title={book.title}
+        author={book.author}
+        description={book.description}
+        image={book.image}
+        key={index}
+      />
+    )
+  });
+
+  return (
+    <section className="book-list">
+      {bookItems}
+    </section>
+  )
+}
 
 const books = [
   {
@@ -82,19 +92,4 @@ const books = [
   }
 ];
 
-export default {
-  name: 'hello',
-  data() {
-    return {
-      books
-    };
-  },
-  components: {
-    BookItem
-  }
-};
-</script>
-
-<style>
-.book-list { margin-top: 15px; }
-</style>
+export default BookList;

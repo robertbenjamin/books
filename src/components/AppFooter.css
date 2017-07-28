@@ -1,0 +1,8 @@
+.footer-bar {
+  padding: 15px;
+  text-align: center; }
+  .footer-bar > .description > a {
+    color: #001f3f;
+    text-decoration: none; }
+    .footer-bar > .description > a:hover {
+      color: #80bfff; }

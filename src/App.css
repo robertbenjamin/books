@@ -1,0 +1,71 @@
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+* {
+  font-family: 'Crimson Text', serif;
+  font-size: 20px; }
+
+body {
+  margin: 0 auto;
+  width: 800px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; }
+
+p {
+  margin: 0; }
+
+p:not(:first-of-type) {
+  margin-top: 5px; }
+
+/* Helpers */
+._pull-left {
+  float: left; }
+
+._pull-right {
+  float: right; }
+
+/* Responsive */
+@media (max-width: 820px) {
+  body {
+    width: 100%; }
+  .nav-links {
+    padding: 0 10px; }
+  .book-list {
+    margin-top: 0; }
+  .about-me {
+    margin: 0 10px; } }
+
+@media (max-width: 700px) {
+  .book-item > .image-container {
+    min-width: 120px !important; }
+    .book-item > .image-container .image {
+      width: 120px; }
+  .book-item > .meta {
+    vertical-align: top;
+    max-width: 50%;
+    margin-right: 15px; } }
+
+@media (max-width: 630px) {
+  .book-item {
+    flex-wrap: wrap; }
+    .book-item > .image-container {
+      margin: 0 auto; }
+    .book-item > .description {
+      margin: 0 auto;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      text-align: center; }
+  .about-me > .header {
+    font-size: 35px !important; } }
+
+@media (max-width: 400px) {
+  .book-item > .image-container {
+    min-width: 90px !important; }
+    .book-item > .image-container .image {
+      width: 90px; }
+  .book-item > .meta > .name, .book-item .author {
+    font-size: 20px !important; } }
