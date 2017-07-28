@@ -1,6 +1,6 @@
 <template>
   <article class="book-item">
-    <img :src="imgSrc" class="image">
+    <img :src="imgSrc" :class="{image: componentLoaded}"><!-- 1. change class -->
     <div class="meta">
       <div class="name">{{ book.title }}</div>*
       <div class="author">{{ book.author }}</div>
@@ -14,10 +14,22 @@
 <script>
 export default {
   props: ['book'],
+  data() {
+    return {
+      componentLoaded: false           // 2. add this 'state' data
+    };
+  },
   computed: {
     imgSrc() {
       return `/static/img/${this.book.image}`;
     }
+  },
+  mounted() {
+    // 3. This will assign class to your image
+    // after component did mounted (nextTick() did not helped)
+    setTimeout(() => {
+      this.componentLoaded = true;
+    }, 1);
   }
 };
 </script>
