@@ -12,8 +12,8 @@
     "prepush": "npm run build && surge ./dist -d https://books.surge.sh"
   },
   "dependencies": {
-    "vue": "^2.0.1",
-    "vue-router": "^2.0.1"
+    "vue": "^2.4.2",
+    "vue-router": "^2.7.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.4.0",

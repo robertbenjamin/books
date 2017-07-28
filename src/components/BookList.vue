@@ -2,7 +2,10 @@
   <section class='book-list'>
     <book-item
       v-for='book in books'
-      v-bind:book='book'>
+      :title='book.title'
+      :author='book.author'
+      :description='book.description'
+      :image='book.image'>
     </book-item>
   </section>
 </template>

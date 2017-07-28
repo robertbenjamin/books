@@ -1,22 +1,29 @@
 <template>
   <article class="book-item">
-    <img :src="imgSrc" class="image">
+    <div class="image-container">
+      <img :src="'/static/img/' + image" class="image">
+    </div>
     <div class="meta">
-      <div class="name">{{ book.title }}</div>*
-      <div class="author">{{ book.author }}</div>
+      <div class="name">{{ title }}</div>—
+      <div class="author">{{ author }}</div>
     </div>
     <div class="description">
-      <p v-html="book.description"></p>
+      <p v-html="description"></p>
     </div>
   </article>
 </template>
 
 <script>
 export default {
-  props: ['book'],
+  props: [
+    'title',
+    'author',
+    'description',
+    'image'
+  ],
   computed: {
     imgSrc() {
-      return `/static/img/${this.book.image}`;
+      return `/static/img/${this.image}`;
     }
   }
 };
@@ -33,7 +40,7 @@ export default {
     color: #80bfff;
   }
 
-  &:nth-child(even) .image { border: 3px solid #fff; }
+  &:nth-child(even) .image-container > .image { border: 2px solid #fff; }
 
   &:nth-child(4n) {
     background-color: #ffdc00;
@@ -51,18 +58,20 @@ export default {
     justify-content: center;
   }
 
-  > .image {
-    width: 150px;
-    height: 100%;
+  > .image-container {
+    min-width: 150px;
+    min-height: 100%;
+
+    img { width: 150px; }
   }
 
-  > .meta { margin: 0 30px 0 15px; }
+  > .meta { margin: 0 30px 0 20px; }
 
   > .meta .name, .author {
     font-family: 'Julius Sans One', sans-serif;
     font-size: 25px;
   }
 
-  > .description { padding-right: 15px; }
+  > .description { padding-right: 10px; }
 }
 </style>
