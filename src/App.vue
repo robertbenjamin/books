@@ -58,22 +58,54 @@ p:not(:first-of-type) { margin-top: 5px; }
   .book-list {
     margin-top: 0;
   }
+
+  .about-me {
+    margin: 0 10px;
+  }
 }
 
 @media (max-width: 700px) {
   .book-item {
-    display: block;
+    > .image-container {
+      min-width: 120px !important;
 
-    > .image, .meta {
-      display: inline-block;
-    }
-    > .image {
-      width: 120px;
+      .image { width: 120px; }
     }
     > .meta {
       vertical-align: top;
       max-width: 50%;
       margin-right: 15px;
+    }
+  }
+}
+
+@media (max-width: 630px) {
+  .book-item {
+    flex-wrap: wrap;
+
+    > .image-container { margin: 0 auto; }
+    > .description {
+      margin: 0 auto;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  }
+
+  .about-me {
+    > .header { font-size: 35px !important; }
+  }
+}
+
+@media (max-width: 400px) {
+  .book-item {
+    > .image-container {
+      min-width: 90px !important;
+
+      .image { width: 90px; }
+    }
+    > .meta > .name, .author {
+      font-size: 20px !important;
     }
   }
 }

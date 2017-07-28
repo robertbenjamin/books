@@ -7,6 +7,7 @@ Partially inspired by Drew Roper's [annual music collection](http://2015.drewrop
 - [x] Static HTML site with a solid design.
 - [x] Dynamically generated site from a JSON file.
 - [ ] Basic API serving static data (Rails or Express).
+- [ ] Refactor SCSS to remove all !important tags.
 - [ ] RESTful API with persistent data in Postgres.
 - [ ] Client side admin with authentication.
 - [ ] ???
