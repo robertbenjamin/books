@@ -23,5 +23,9 @@
     width: 100%;
     margin-bottom: 10px;
   }
+
+  a {
+    font-style: italic;
+  }
 }
 </style>

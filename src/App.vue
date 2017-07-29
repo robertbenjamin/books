@@ -38,6 +38,13 @@ body {
   flex-direction: column;
 }
 
+a {
+  color: #001f3f;
+  text-decoration: none;
+
+  &:hover { color: #80bfff; }
+}
+
 p { margin: 0; }
 p:not(:first-of-type) { margin-top: 5px; }
 

@@ -10,12 +10,5 @@
 .footer-bar {
   padding: 15px;
   text-align: center;
-
-  > .description > a {
-    color: #001f3f;
-    text-decoration: none;
-
-    &:hover { color: #80bfff; }
-  }
 }
 </style>
