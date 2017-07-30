@@ -1,7 +1,8 @@
 <template>
   <section class='book-list'>
     <book-item
-      v-for='book in books'
+      v-for='(book, index) in books'
+      :key='index'
       :title='book.title'
       :author='book.author'
       :description='book.description'
@@ -11,7 +12,7 @@
 </template>
 
 <script>
-import BookItem from './BookItem';
+import BookItem from './BookItem'
 
 const books = [
   {
@@ -80,19 +81,19 @@ const books = [
     description: 'If you don’t prioritize your life someone else will.',
     image: 'essentialism-greg-mckeown.jpg'
   }
-];
+]
 
 export default {
   name: 'hello',
-  data() {
+  data () {
     return {
       books
-    };
+    }
   },
   components: {
     BookItem
   }
-};
+}
 </script>
 
 <style>

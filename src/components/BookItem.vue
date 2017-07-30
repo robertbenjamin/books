@@ -22,11 +22,11 @@ export default {
     'image'
   ],
   computed: {
-    imgSrc() {
-      return `/static/img/${this.image}`;
+    imgSrc () {
+      return `/static/img/${this.image}`
     }
   }
-};
+}
 </script>
 
 <style lang='scss'>

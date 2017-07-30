@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import AppHeader from './components/AppHeader';
-import AppFooter from './components/AppFooter';
-import BookList from './components/BookList';
+import AppHeader from './components/AppHeader'
+import AppFooter from './components/AppFooter'
+import BookList from './components/BookList'
 
 export default {
   name: 'app',
@@ -18,7 +18,7 @@ export default {
     AppFooter,
     BookList
   }
-};
+}
 </script>
 
 <style lang='scss'>

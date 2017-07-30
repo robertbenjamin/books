@@ -1,11 +1,11 @@
-import Vue from 'vue';
-import VueRouter from 'vue-router';
-import App from './App';
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+import App from './App'
 
-import BookList from './components/BookList';
-import AboutMe from './components/AboutMe';
+import BookList from './components/BookList'
+import AboutMe from './components/AboutMe'
 
-Vue.use(VueRouter);
+Vue.use(VueRouter)
 
 const router = new VueRouter({
   mode: 'history',
@@ -14,7 +14,7 @@ const router = new VueRouter({
     { path: '/about', component: AboutMe },
     { path: '*', component: BookList }
   ]
-});
+})
 
 /* eslint-disable no-new */
 new Vue({
@@ -22,4 +22,4 @@ new Vue({
   el: '#app',
   template: '<App/>',
   components: { App }
-});
+})
